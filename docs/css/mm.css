@@ -1,0 +1,26 @@
+body {
+  background: #00A99D;
+  font-family: 'Staatliches', cursive;
+        background: url(../img/mm-background.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.centered {
+  text-align: center;
+}
+
+.box-center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+
+}
+
+
+/* Kill button styles */
+.btn .btn-default { border-radius: 0 !important; }
