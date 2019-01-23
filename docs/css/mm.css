@@ -7,6 +7,12 @@ body {
         -o-background-size: cover;
         background-size: cover;
         height: 100vh;
+        
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+
 }
 
 .centered {
@@ -14,14 +20,59 @@ body {
 }
 
 .box-center {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%);
+
 
 }
 
+/* main nav pills */
+.max-width {
+  text-align: center; margin:auto;
+  max-width:700px;
+}
+
+.max-image img {
+  max-width:250px;
+  padding:20px;
+}
+
+/* nav */
+
+.nav {margin-bottom: 60px;}
+
+.nav-pills {
+  font-size: 1.1em;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  border-left:2px solid #fff !important;
+  border-right:2px solid #fff !important;
+  background-color: transparent !important;
+
+}
+.nav-pills>li>a, .nav-pills>li>a:hover, .nav-pills>li>a:focus {
+  background-color: transparent !important;
+  color:#fff;
+}
+.nav-pills>li>a:hover {
+  background-color: transparent !important;
+  color:purple;
+}
+
+/* Tab content */
+.tab-pane {
+  margin-top {20px}
+}
 
 /* Kill button styles */
 .btn .btn-default { border-radius: 0 !important; }
+
+
+/* results */
+h4 {margin-bottom:0px; padding-bottom:0px;}
+
+
+/* adjusters */
+.vcenter {
+  display: inline-block;
+ vertical-align: middle;
+ float: none;
+}
