@@ -77,3 +77,10 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+/* Custom */
+
+.series-img img {
+  max-width:250px;
+  padding: 20px;
+}

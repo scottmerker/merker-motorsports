@@ -39,7 +39,7 @@
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
-      color: fade-out($white, .3);
+      color: fade-out($white, 0);
       &:focus,
       &:hover {
         color: $white;
@@ -50,7 +50,7 @@
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
-      color: fade-out($white, .3);
+      color: fade-out($white, .1);
       &:hover {
         color: $white;
       }
@@ -58,13 +58,17 @@
     &.navbar-shrink {
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
+      img {
+        -webkit-filter: invert(100%);
+      }
       .navbar-brand {
-        color: $primary;
+        color: #000;
         &:focus,
         &:hover {
           color: darken($primary, .1);
         }
       }
+
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
         color: $gray-900;
