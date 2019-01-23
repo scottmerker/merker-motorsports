@@ -1,5 +1,5 @@
 body {
-        background-color: #00A99D;
+        background-color: #cbdc14;
         font-family: 'Staatliches', cursive;
         background: url(../img/mm-background.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -22,6 +22,17 @@ body {
 
 }
 
+img.logo{
+  -webkit-filter: drop-shadow(1px 1px 1px #000 );
+  filter: drop-shadow(1px 1px 1px #000);
+
+}
+
+img.logo:hover{
+  -webkit-filter: drop-shadow(5px 5px 20px #e4f435 );
+  filter: drop-shadow(5px 5px 20px #e4f435);
+
+}
 
 /* Kill button styles */
 .btn .btn-default { border-radius: 0 !important; }
