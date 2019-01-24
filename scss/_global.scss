@@ -80,7 +80,26 @@ img::-moz-selection {
 
 /* Custom */
 
+/* Logo */
+
+img.main-logo {
+  //-webkit-filter: drop-shadow(1px 1px 1px #222);
+  //  filter: drop-shadow(1px 1px 1px #222);
+    transition: all .2s ease-in-out;
+}
+
+img.main-logo:hover {
+transform: scale(.95);
+
+}
+
 .series-img img {
   max-width:250px;
   padding: 20px;
+}
+
+#drivers img {
+  border:1px solid $primary;
+  border-radius: 100px;
+  width:100px;
 }
