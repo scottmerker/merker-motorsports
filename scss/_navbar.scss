@@ -7,12 +7,13 @@
   .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: $primary;
+    color: #000;
     @include sans-serif-font;
     &:focus,
     &:hover {
       color: darken($primary, .1);
     }
+
   }
   .navbar-nav {
     > li.nav-item {
