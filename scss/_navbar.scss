@@ -60,7 +60,7 @@
       border-bottom: 1px solid fade-out($gray-900, .9);
       background-color: $white;
       img {
-        -webkit-filter: invert(100%);
+        -webkit-filter: invert(0%) !important;
       }
       .navbar-brand {
         color: #000;
